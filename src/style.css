@@ -1,0 +1,36 @@
+.card {
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card:nth-child(odd) {
+    background-color: #f9fafb;
+}
+
+.card:nth-child(even) {
+    background-color: #ffffff;
+}
+.img-class1
+{
+    margin: none;
+    height: 100%;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+#mmm
+{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    background-color: #f9fafb;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
